@@ -1,0 +1,63 @@
+/* Center the login card vertically */
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Login header styling */
+.login-header p.display-4 {
+    font-weight: 600;
+    font-size: larger;
+    color: #41015f;
+    text-align: center;
+}
+
+.login-header hr {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 3px solid #41015f;
+}
+
+/* Card appearance */
+.login-card {
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(33, 1, 40, 0.253);
+}
+
+/* Button styling */
+.login-card .btn {
+    padding: 0.6rem;
+    font-weight: 500;
+}
+
+/* Success and error message styles */
+.login-message {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.text-success {
+    color: #198754;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Link styling */
+.register-link-text {
+    font-size: 0.95rem;
+}
+
+.register-link-text a {
+    color: #39046e;
+    font-weight: 500;
+}
+
+.register-link-text a:hover {
+    text-decoration: underline;
+}
